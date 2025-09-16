@@ -31,9 +31,5 @@ String upperCase(String name) {
 }
 
 boolean first (String name) {
-  if (Character.isUpperCase(name.charAt(0))) {
-    return true; 
-  } else {
-    return false;
-  }
+  return Character.isUpperCase(name.charAt(0)); 
 }
